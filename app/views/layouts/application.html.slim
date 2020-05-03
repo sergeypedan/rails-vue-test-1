@@ -1,0 +1,10 @@
+doctype html
+html lang=I18n.locale
+  head
+    meta charset="UTF-8"
+    meta name="viewport" content="initial-scale=1.0"
+    title Test Vue & Rails integration
+    = javascript_pack_tag "vue-front", defer: true
+    = stylesheet_pack_tag "application"
+
+  body == yield

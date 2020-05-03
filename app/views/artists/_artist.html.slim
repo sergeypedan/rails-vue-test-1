@@ -1,0 +1,10 @@
+article.card.mt-4
+  / .card-header
+  .card-body
+    h4.card-title = artist.name
+    - if artist.records.any?
+      ul style="margin-bottom: 0"
+        - artist.records.each do |record|
+          li = record.title
+    - else
+      p style="margin-bottom: 0" No records

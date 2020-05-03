@@ -1,0 +1,28 @@
+{
+  "author": "Sergey Pedan <sergey.pedan@gmail.com>",
+  "dependencies": {
+    "@rails/webpacker": "5.1.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-loader": "^15.9.2",
+    "vue-router": "^3.1.6",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "description": "A Vue.js front-end part",
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "licnce": "As is",
+  "name": "recordstore-front",
+  "private": true,
+  "scripts": {},
+  "version": "1.0.0"
+}

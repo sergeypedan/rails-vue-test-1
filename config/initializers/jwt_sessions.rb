@@ -1,0 +1,1 @@
+JWTSessions.encryption_key = "as0d9f87as0df87as0df897a0sf87as0d9f87a0sdf87a0sd8f7a0sd8f7a0sd98f7"
